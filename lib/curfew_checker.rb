@@ -52,11 +52,11 @@ deluxe_curfew_checker (23)
 def platinum_curfew_checker(current_time, curfew_time)
  if time == 23
    puts "Curfew is at 11, time to apparate"
-end
+
 
 elsif time > 23
 puts "you're in trouble! better be back to Hogwarts quick! Curfew was at 11."
-end 
+ 
 
 else time == 21
   puts "You have 2 hours to have fun! Curfew at 11."
